@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono" rel="stylesheet">
+		<title>readylayerone_</title>
+	</head>
+	<body class="w-full mx-auto max-w-3xl">
+    <nav class="border-b-[0.5px] border-gray-500">
+      <div class="px-2 flex flex-row py-2 place-content-between">
+        <div class="flex flex-row items-center">
+				  <div class="w-8 sm:w-12">
+				  	<a href="/">
+				  		<img src="/smbgen3.png">
+				  	</a>
+				  </div>
+          <div class="pl-2 sm:pl-4">
+            <a href="/">
+              <h1 class="text-sm sm:text-base font-mono font-[700]">readylayerone_</h1>
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-row items-center">
+					<a href="/about" class="pl-2 text-xs sm:text-sm font-mono underline underline-offset-2">about</a>
+					<a href="/blog" class="px-2 text-xs sm:text-sm font-mono underline underline-offset-2">blog</a>
+					<a href="/" class="px-2 text-xs sm:text-sm font-mono underline underline-offset-2">now</a>
+					<a href="/" class="pr-1 text-xs sm:text-sm font-mono underline underline-offset-2">looking for</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="pt-16">
+        <slot />
+      </div>
+    </main>
+	</body>
+</html>
