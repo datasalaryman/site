@@ -1,11 +1,25 @@
 ---
 import BlogListLayout from '../../layouts/BlogListLayout.astro';
+
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+const blogCollection = await getCollection('blog');
+
 ---
 
 <BlogListLayout>
 	<div class="px-8">
-		<h1 class="sm:text-4xl text-2xl font-mono font-[100] pb-4">Blog archive</h1>
-		<p>Blog entry</p>
-		<p>List item</p>
+		<h1 class="sm:text-4xl text-2xl font-mono font-[100] pb-8">Blog archive</h1>
+		{
+			blogCollection.map(
+				(entry) => {
+					return (
+						<div class="pb-4">
+							<p class="sm:text-2xl text-xl font-mono font-[100] pb-1/2">{entry.data.title}</p>
+							<p class="">{entry.data.date}</div>
+						</div>
+					)
+				})
+		}
 	</div>
 </BlogListLayout>
