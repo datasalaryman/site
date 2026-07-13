@@ -16,4 +16,15 @@ I moved on trying to build my own Solana application in public. It was a [naive 
 
 I've gone in and out of several startups. Realizing I had a lot more to learn, I wanted to understand the terrain of Solana dev. I was looking for a place where I could see what everyone was working on and what engineering problems were being solved. All the work was being done in different places, and no reference existed collecting their updates and progress at the time. So I decided to [create a newsletter](https://x.com/readylayerone/status/1995307937229836295?s=20) in December 2025 and have been publishing that content weekly since. 
 
+<a class="project-link" href="https://x.com/readylayerone/status/1995307937229836295?s=20" target="_blank" rel="noreferrer">
+  <img src="https://pbs.twimg.com/media/G7C5UC3asAA4HxY.jpg" alt="Solana Technical Weekly newsletter preview" loading="lazy" />
+  <span>Solana Technical Weekly - W1 on X</span>
+</a>
+
 Eventually, I saw an old post and video series called Solana Changelog, that covers material similar to mine, but was discontinued. I reached out to [Jacob Creech](https://x.com/jacobvcreech) to see if we can ressurect it. He agreed. And my newsletter got incorporated into Solana Changelog. Since then, the newsletter has become a weekly podcast on [@solana_devs](https://x.com/solana_devs) on X and [@readylayerone](https://www.youtube.com/@readylayer1) on YouTube.
+
+<a class="project-link" href="https://x.com/solana_devs/status/2057445380040573251?s=20" target="_blank" rel="noreferrer">
+  <img src="https://pbs.twimg.com/media/HIy03piXEAAMaag.jpg" alt="Solana Changelog newsletter preview" loading="lazy" />
+  <span>Solana Changelog: May 21 on X</span>
+</a>
+
