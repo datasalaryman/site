@@ -1,4 +1,4 @@
-import z from "zod";
+import { z } from 'zod';
 
 // 1. Import utilities from `astro:content`
 import { defineCollection } from 'astro:content';
@@ -8,7 +8,7 @@ const blogCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     author: z.string(), 
-    date: z.string().date()
+    date: z.iso.date()
   }),
 });
 // 3. Export a single `collections` object to register your collection(s)
