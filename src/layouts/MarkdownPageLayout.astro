@@ -70,7 +70,8 @@ const { title } = Astro.props;
 
 	.markdown-content :global(.project-link) {
 		display: block;
-		margin-bottom: 1.75rem;
+		width: 100%;
+		margin: 0 auto 1.75rem;
 		overflow: hidden;
 		border: 1px solid rgb(209 213 219);
 		border-radius: 0.75rem;
@@ -101,6 +102,10 @@ const { title } = Astro.props;
 	}
 
 	@media (min-width: 640px) {
+		.markdown-content :global(.project-link) {
+			width: 66.6667%;
+		}
+
 		.markdown-content :global(h1) {
 			font-size: 2.25rem;
 		}
